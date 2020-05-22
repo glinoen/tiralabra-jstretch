@@ -4,8 +4,13 @@ Projeḱtin tarkoitus on toteuttaa yksi tai useampi "time stretching" algoritmi.
 
 ## Algoritmit
 
-Mahdollisia algoritmeja ovat esim SOLA, PSOLA, TDHS, Phase Vocoder ja WSOLA.
+Toiminnallisuus toteutetaan vaihevokooderilla(phase vocoder) joka perustuu lyhytaikaiseen Fourier-muunnokseen.
 
 ## Input/Output
 
-Ohjelma ottaa parametrina sekä palauttaa äänitiedoston. 
+Ohjelma lukee äänitiedoston(wav tai mp3) ja tekee siitä venytetyn kopion.
+
+## Lähteet
+- https://sethares.engr.wisc.edu/vocoders/Transforms.pdf
+- https://en.wikipedia.org/wiki/Phase_vocoder
+- http://users.spa.aalto.fi/vpv/ask-sanasto.htm
