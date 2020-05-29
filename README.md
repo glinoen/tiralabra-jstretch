@@ -10,4 +10,4 @@
 
 [Viikkoraportti 2](https://github.com/glinoen/tiralabra-jstretch/blob/master/dokumentaatio/viikkoraportti2.md) 
 
-
+[Viikkoraportti 3](https://github.com/glinoen/tiralabra-jstretch/blob/master/dokumentaatio/viikkoraportti3.md) 
