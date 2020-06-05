@@ -4,8 +4,11 @@
  * and open the template in the editor.
  */
 package domain;
+import java.io.File;
+import java.io.IOException;
 import java.lang.Math.*;
 import java.util.Arrays;
+import javax.sound.sampled.*;
 
 /**
  *
@@ -49,7 +52,7 @@ public class FFT {
         return combinedResult;
     }
     
-    public static void main(String[] args) { 
+    public static void main(String[] args) throws UnsupportedAudioFileException, IOException { 
         int[] inputti = new int[] { 0,1,0,0,0,0,0,0 };
         ComplexNumber[] x = new ComplexNumber[inputti.length];
         System.out.println(Arrays.toString(inputti));
@@ -58,6 +61,7 @@ public class FFT {
         }
         System.out.println(Arrays.toString(x));
         System.out.println(Arrays.toString(FFTRecursive(x)));
-        
+        AudioInputStream ais = AudioSystem.getAudioInputStream(new File("/home/julinden/Downloads/520495__dottyyumyum__metallic-ting.wav"));
+        System.out.println(ais.getFormat());
     }
 }
